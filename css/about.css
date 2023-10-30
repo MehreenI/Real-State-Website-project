@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style Body */
+body {
+    height: 869px;
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 700;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.miniheading {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5BCCDE;
+}
+
+.heading {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #486A6F;
+
+}
+
+
+/* ============================================================================================================ */
+                                            /* Style Header */
+/* ============================================================================================================ */
+
+header {
+    margin-top: 65px;
+}
+
+/* Style logo inside Header Section */
+header .logo {
+    width: 141px;
+    height: 50px;
+}
+
+/* Style navigation list */
+header .navigation ul {
+    list-style-type: none;
+}
+
+header .navigation ul li {
+    display: inline-block;
+}
+
+header .navigation ul li a {
+
+    font-weight: 500;
+    line-height: 32px;
+    color: #678C92;
+    padding-right: 50px;
+}
+
+/* Style side Button */
+header .need-project a {
+
+    font-weight: 700;
+    line-height: 22px;
+    color: #F4F7FF;
+    padding: 10px 25px;
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    border-radius: 5px;
+}
+
+                                /* Header Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+/* ============================================================================================================ */
+                                        /* Style Hero Section Section */
+/* ============================================================================================================ */
+
+.hero {
+    margin-top: 100px;
+}
+
+.hero div img {
+    margin-left: 71.5px;
+    margin-right: 72px;
+}
+
+.hero .about-info p:first-child {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.hero .about-info h2 {
+    padding-bottom: 20px;
+}
+
+.hero .about-info .text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #678C92;
+    padding-bottom: 40px;
+    padding-right: 63px;
+}
+
+.hero .about-info a {
+
+    font-weight: 700;
+    line-height: 22px;
+    color: #F4F7FF;
+    padding: 15px 71.5px;
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 5px;
+}
+
+                                /* Hero Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+
+/* ============================================================================================================ */
+                                 /* Style Parters_Statistics Section */
+/* ============================================================================================================ */
+
+.Parters_Statistics {
+    background: #F4F7FF;
+    height: 869px;
+}
+
+.Parters_Statistics .Statistics {
+    height: 606px;
+}
+
+.Parters_Statistics .Statistics h2 {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.Parters_Statistics .Statistics h3 {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 142px;
+}
+
+.Parters_Statistics .Statistics .card {
+    width: 1024px;
+    height: 157px;
+    background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%);
+    border-radius: 3px;
+    align-items: center;
+    margin: auto;
+    box-shadow: 10px 14px 20px #c6dbff;
+    margin-bottom: 60px;
+}
+
+.Parters_Statistics .Statistics .card .card_content {
+    padding-left: 60px;
+    padding-right: 70px;
+}
+
+.Parters_Statistics .Statistics .card .card_content figure {
+    margin-right: 40px;
+}
+
+.Parters_Statistics .Statistics .card .card_content h3 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #486A6F;
+    padding: 0px;
+}
+
+.Parters_Statistics .Statistics .card .card_content p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #678C92;
+    padding: 0px;
+}
+
+.Parters_Statistics .Statistics .card .middle {
+    border-left: 1px solid #486A6F;
+    border-right: 1px solid #486A6F;
+}
+
+.Parters_Statistics .Statistics .partners {
+    border-top: 2px solid #678C92;
+    border-bottom: 2px solid #678C92;
+    justify-content: center;
+    margin-bottom: 173px;
+}
+
+.Parters_Statistics .Statistics .partners figure {
+    padding-top: 37px;
+    padding-bottom: 40px;
+    margin-right: 40px;
+}
+
+                                /* Parters and Statistics Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+/* ============================================================================================================ */
+                                     /* Style Our Team Sceion */
+/* ============================================================================================================ */
+
+.team {
+    height: 1800px;
+    background: #E1EBFA;
+}
+
+.team .team_content .miniheading_padding {
+    padding-top: 83px;
+    padding-bottom: 5px;
+}
+
+.team .team_content .headings h2,
+.team .team_content .headings h3 {
+    text-align: center;
+}
+
+.team .team_content .call {
+    border-bottom: 1.5px solid #678C92;
+    border-top: 1.5px solid #678C92;
+    padding: 68px 0px;
+    margin-top: 60px;
+}
+
+.team .team_content .call div a {
+    background: #C6DBFF;
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #486A6F;
+    padding: 15px 69px;
+}
+
+.team .team_content .call div a:first-child {
+    padding: 15px 105px;
+    margin-right: 23.1px;
+}
+
+.team .team_content .call div a:hover {
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    border-radius: 5px;
+    color: #F4F7FF;
+}
+
+.card_team div img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card_team .content_teamCard {
+    background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%);
+    border-radius: 5px;
+    padding: 21px 20px;
+    margin-top: -10px;
+}
+
+.card_team .content_teamCard h4 {
+    padding-bottom: 5px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #486A6F;
+}
+
+.card_team .content_teamCard p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #678C92;
+}
+
+.card_team img {
+    margin-right: 40px;
+}
+
+.card_team {
+    justify-content: center;
+    margin-top: 63px;
+}
+
+                                /* Our Team Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+/* ============================================================================================================ */
+                                        /* Style Footer */
+/* ============================================================================================================ */
+
+footer {
+    height: 434px;
+    background: linear-gradient(84.81deg, rgba(72, 106, 111, 0.2) 0%, rgba(67, 151, 164, 0.2) 100%), #486A6F;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F4F7FF;
+    padding-top: 85px;
+}
+
+footer .footer {
+    align-items: start;
+
+}
+
+footer .footer .footer-section1 {
+    margin-right: 60px;
+}
+
+footer .footer .footer-section1 p {
+    padding-top: 14px;
+}
+
+footer .footer-section1 .company {
+    padding-bottom: 90px;
+}
+
+footer .footer-section1 p span {
+    text-decoration: 2px soild underline white;
+}
+
+/* Style 2nd Section of Footer */
+
+footer .footer-section2 ul {
+    list-style-type: none;
+    margin-right: 279.1px;
+}
+
+footer .footer-section2 ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section2 ul li:last-child {
+    padding-bottom: 32px;
+}
+
+/* Style 3rd Section of Footer */
+footer .footer-section3 {
+    margin-right: 173.07px;
+}
+
+footer .footer-section3 nav ul {
+    list-style-type: none;
+}
+
+footer .footer-section3 nav ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section3 nav ul li a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F4F7FF;
+}
+
+footer .footer-section4 ul {
+    list-style-type: none;
+}
+
+footer .footer-section4 ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section4 ul li:first-child {
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+footer .footer-section1 ul li .address {
+    text-transform: none;
+    font-style: normal;
+}
+
+                                /* Footer ends here */
+/* ------------------------------------------------------------------------------ */

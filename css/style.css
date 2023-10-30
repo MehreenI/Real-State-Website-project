@@ -1,0 +1,665 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style Body */
+body {
+    height: 850.83px;
+    background: url('Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    /* background-color: #C6DBFF; */
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ============================================================================================================ */
+                                                /* Style Header */
+/* ============================================================================================================ */
+
+header {
+    margin-top: 65px;
+}
+
+/* Style logo inside Header Section */
+header .logo {
+    width: 141px;
+    height: 50px;
+}
+
+/* Style navigation list */
+header .navigation ul {
+    list-style-type: none;
+}
+
+header .navigation ul li {
+    display: inline-block;
+}
+
+header .navigation ul li a {
+
+    font-weight: 500;
+    line-height: 32px;
+    color: #678C92;
+    padding-right: 50px;
+}
+
+/* Style side Button */
+header .need-project a {
+
+    font-weight: 700;
+    line-height: 22px;
+    color: #F4F7FF;
+    padding: 10px 25px;
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    border-radius: 5px;
+}
+
+                            /* Header Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+/* ============================================================================================================ */
+                                                /* Style Hero */
+/* ============================================================================================================ */
+
+.hero {
+    height: 629.68px;
+    margin-bottom: 95.15px;
+    margin-top: 64px;
+}
+
+.hero .text {
+    width: 500px;
+    height: 397px;
+}
+
+.hero .text h1 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    background: linear-gradient(104.24deg, rgba(72, 106, 111, 0.2) 42.78%, rgba(91, 204, 222, 0.2) 91.91%), #486A6F;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-right: 80px;
+}
+
+.hero .text p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #678C92;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.hero .button a:hover {
+
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 5px;
+    color: #F4F7FF;
+}
+
+.hero .button a:first-child {
+    padding: 20px 29px 19px 26px;
+    margin-right: 20px;
+
+}
+
+.hero .button a:last-child {
+    padding: 20px 58px 19px 49px;
+}
+
+.hero .button a {
+    background: #C6DBFF;
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #486A6F;
+}
+
+.hero .image {
+    width: 630.5px;
+    height: 629.68px;
+    margin-top: 70px;
+}
+
+                                        /* Hero Section Ends Here */
+/* ---------------------------------------------------------------------------------------------- */
+
+/* ============================================================================================================ */
+                                        /* Style Service Section */
+/* ============================================================================================================ */
+.services {
+    height: 899.83px;
+    background: #F4F7FF;
+}
+
+.services .heading h2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #486A6F;
+    padding-bottom: 132px;
+    padding-top: 200.85px;
+}
+
+.services .cards .card {
+    width: 366.67px;
+    height: 308px;
+    padding: 50px;
+}
+
+.services .cards .card h3 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #486A6F;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.services .cards .card p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #678C92;
+    padding-right: 20px;
+}
+
+                        /* Service Section Ends Here */
+/* ------------------------------------------------------------------------------- */
+
+/* ============================================================================================================ */
+                                                /* Style About Section */
+/* ============================================================================================================ */
+
+.about-us {
+    height: 899px;
+    background: #E1EBFA;
+    padding-top: 53.02px;
+}
+
+/* Style Partners Section insode About us Section */
+.about-us .partners {
+    border-top: 3px solid #678C92;
+    border-bottom: 3px solid #678C92;
+    justify-content: center;
+}
+
+.about-us .partners figure {
+    padding-top: 37px;
+    padding-bottom: 40px;
+    margin-right: 40px;
+
+}
+
+.about-us .about {
+    justify-content: center;
+}
+
+/* Style Figure insde about */
+.about-us .about figure {
+    width: 500px;
+    height: 375px;
+    margin-top: 134.5px;
+    margin-right: 60px;
+}
+
+/* Style About -Info(Text) Section inside About us Section */
+.about-us .about .about-info {
+    width: 540px;
+    height: 524px;
+}
+
+.about-us .about .about-info p:first-child {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5BCCDE;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.about-us .about .about-info h2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #486A6F;
+}
+
+.about-us .about .about-info .text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #678C92;
+    padding-bottom: 40px;
+    padding-right: 54px;
+}
+
+.about-us .about .about-info a {
+
+    font-weight: 700;
+    line-height: 22px;
+    color: #F4F7FF;
+    padding: 15px 71.5px;
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 5px;
+}
+
+                                    /* About Section Ends Here */
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* ============================================================================================================ */
+                                                /* Style Project Section */
+/* ============================================================================================================ */
+
+.project-section {
+    background: #F4F7FF;
+    padding-bottom: 230px;
+
+}
+
+.project {
+    justify-content: space-around;
+}
+
+.project .project-text {
+
+    height: 476px;
+    margin-top: 233.7px;
+}
+
+.project .project-text .mini-heading {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5BCCDE;
+    padding-bottom: 20px;
+}
+
+.project .project-text h2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #486A6F;
+    padding-bottom: 20px;
+}
+
+.project .project-text .text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #678C92;
+    padding-bottom: 40px;
+    width: 480px;
+}
+
+.project .project-text a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F4F7FF;
+    padding: 15px 71.5px;
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 5px;
+}
+
+.project figure {
+    margin-top: 156.68px;
+    margin-right: 77.5px;
+}
+
+                                    /* Project Section Ends Here */
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* ============================================================================================================ */
+                                        /* Style Social Section */
+/* ============================================================================================================ */
+
+.social-section {
+    background: #E1EBFA;
+    height: 899.83px;
+}
+
+.social-section .social .social-text .mini-heading {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #5BCCDE;
+    padding-top: 122.33px;
+    padding-bottom: 10px;
+}
+
+.social-section .social .social-text h2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #486A6F;
+    padding-bottom: 40px;
+}
+
+.social-section .social .social-img {
+    display: grid;
+    grid-template-columns: 328px 328px 328px;
+    grid-template-rows: 278px 278px;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+                                    /* Social Section Ends Here */
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* ============================================================================================================ */
+                                        /* Style Contact Section */
+/* ============================================================================================================ */
+.contact {
+    background: #F4F7FF;
+    height: 899.83px;
+}
+
+.contact .contact {
+    height: 473px;
+    width: 579.947265625px;
+
+}
+
+.contact .content .miniheading {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5BCCDE;
+    padding-top: 204.51px;
+    padding-bottom: 13px;
+}
+
+.contact .content h2 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #486A6F;
+    margin-bottom: 110px;
+}
+
+.contact .content .ways .tel {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 13px;
+}
+
+.contact .content .ways .email {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 13px;
+
+}
+
+.contact .content .ways .address {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.ways .tel .details,
+.ways .email .details,
+.ways .address .details {
+    margin-left: 37.78px;
+}
+
+.ways .tel .details h3,
+.ways .email .details h3,
+.ways .address .details h3 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #486A6F;
+}
+
+.ways .tel .details a,
+.ways .email .details a,
+.ways .address .details address {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #486A6F;
+    text-decoration: none;
+}
+
+.ways .address .details address {
+    padding-right: 30px;
+}
+
+.contact .form {
+    height: 508px;
+    width: 475.97265625px;
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+    border-radius: 5px;
+    padding-top: 52px;
+    padding-left: 41.5px;
+    margin-top: 204.51px;
+}
+
+.contact .form label {
+    display: block;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #678C92;
+    padding: 6px;
+}
+
+.contact .form .name_email {
+    display: flex;
+}
+
+.contact .form .name_email div input {
+    margin-right: 21.7px;
+
+}
+
+.contact .form input {
+    border: 1px solid #486A6F;
+    border-radius: 3px;
+    height: 40px;
+    width: 185.42138671875px;
+    background: none;
+    margin-bottom: 28px;
+}
+
+.contact .form .sub {
+    height: 40px;
+    width: 391.5089416503906px;
+    border: 1px solid #486A6F;
+    border-radius: 3px;
+    background: none;
+}
+
+textarea {
+    height: 130px;
+    width: 393.95px;
+    margin-bottom: 28px;
+    border: 1px solid #486A6F;
+    border-radius: 3px;
+    background: none;
+}
+
+.form div a {
+    padding: 15px 143.05px;
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #F4F7FF;
+}
+                                    /* Contact Section Ends Here */
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* ============================================================================================================ */
+                                         /* Style Footer Section */
+/* ============================================================================================================ */
+
+footer {
+    height: 434px;
+    background: linear-gradient(84.81deg, rgba(72, 106, 111, 0.2) 0%, rgba(67, 151, 164, 0.2) 100%), #486A6F;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F4F7FF;
+    padding-top: 85px;
+}
+
+footer .footer {
+    align-items: start;
+
+}
+
+footer .footer .footer-section1 {
+    margin-right: 60px;
+}
+
+footer .footer .footer-section1 p {
+    padding-top: 14px;
+}
+
+footer .footer-section1 .company {
+    padding-bottom: 90px;
+}
+
+footer .footer-section1 p span {
+    text-decoration: 2px soild underline white;
+}
+
+/* Style 2nd Section of Footer */
+
+footer .footer-section2 ul {
+    list-style-type: none;
+    margin-right: 279.1px;
+}
+
+footer .footer-section2 ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section2 ul li:last-child {
+    padding-bottom: 32px;
+}
+
+/* Style 3rd Section of Footer */
+footer .footer-section3 {
+    margin-right: 173.07px;
+}
+
+footer .footer-section3 nav ul {
+    list-style-type: none;
+}
+
+footer .footer-section3 nav ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section3 nav ul li a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F4F7FF;
+}
+
+footer .footer-section4 ul {
+    list-style-type: none;
+}
+
+footer .footer-section4 ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section4 ul li:first-child {
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+footer .footer-section1 ul li .address {
+    text-transform: none;
+    font-style: normal;
+}

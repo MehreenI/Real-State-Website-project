@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style Body */
+body {
+    height: 869px;
+    /* background: linear-gradient(42.43deg, #c6dbff7e 0%, #e1ebfaa9 52.25%),url('Images/Bg.png'); */
+    background-image: url('Images/ProjectBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 700;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniheading {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5BCCDE;
+}
+
+.heading {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #486A6F;
+
+}
+
+
+/* ============================================================================================================ */
+                                                /* Style Header */
+/* ============================================================================================================ */
+
+header {
+    margin-top: 65px;
+}
+
+/* Style logo inside Header Section */
+header .logo {
+    width: 141px;
+    height: 50px;
+}
+
+/* Style navigation list */
+header .navigation ul {
+    list-style-type: none;
+}
+
+header .navigation ul li {
+    display: inline-block;
+}
+
+header .navigation ul li a {
+
+    font-weight: 500;
+    line-height: 32px;
+    color: #678C92;
+    padding-right: 50px;
+}
+
+/* Style side Button */
+header .need-project a {
+
+    font-weight: 700;
+    line-height: 22px;
+    color: #F4F7FF;
+    padding: 10px 25px;
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    border-radius: 5px;
+}
+
+                        /* Header Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+/* ============================================================================================================ */
+                                                /* Style Hero */
+/* ============================================================================================================ */
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    margin-top: 229px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    padding: 0px 335px
+}
+
+.hero p {
+    margin-bottom: 207px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #678C92;
+    padding: 0px 396px;
+}
+
+                        /* Hero Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+/* ============================================================================================================ */
+                                            /* Style Project List */
+/* ============================================================================================================ */
+.project {
+    height: 1738px;
+    background: #F4F7FF;
+    margin-bottom: 436px;
+}
+
+.project .project_list .heading {
+    text-align: center;
+    padding-top: 78px;
+    padding-bottom: 63px;
+}
+
+.project .project_list .project_info {
+    justify-content: center;
+    margin-top: -13px;
+}
+
+.project .project_list .project_info div img {
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 40px;
+}
+
+.project .project_list .project_info div .content {
+    background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%);
+    border-radius: 5px;
+    padding-top: 32px;
+    padding-bottom: 21px;
+    padding-left: 20px;
+    margin-top: -7px;
+    margin-right: 40px;
+    margin-bottom: 83px;
+    box-shadow: 6px 11px 22px #c6dbff;
+}
+
+.project .project_list .project_info div .content h4 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #486A6F;
+}
+
+.project .project_list .project_info div .content p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #486A6F;
+}
+
+.project_list a {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 84px;
+    background: #4397A4;
+    border-radius: 3px;
+    margin-left: 40%;
+    color: white;
+    margin-bottom: 236px;
+}
+
+
+                         /* Project Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+
+/* ============================================================================================================ */
+                                            /* Style Call Section */
+/* ============================================================================================================ */
+.call_section {
+    background: #E1EBFA;
+    padding: 122px 0px;
+}
+
+.call_section .call {
+    border-bottom: 1.5px solid #678C92;
+    border-top: 1.5px solid #678C92;
+    padding: 68px 0px;
+    margin-top: 60px;
+}
+
+.call_section .call div a {
+    background: #C6DBFF;
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #486A6F;
+    padding: 15px 69px;
+}
+
+.call_section .call div a:first-child {
+    padding: 15px 105px;
+    margin-right: 23.1px;
+}
+
+.call_section .call div a:hover {
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+    border-radius: 5px;
+    color: #F4F7FF;
+}
+
+
+                                /* Call Section ends here */
+/* ------------------------------------------------------------------------------ */
+
+
+/* ============================================================================================================ */
+                                            /* Style Footer */
+/* ============================================================================================================ */
+
+footer {
+    height: 434px;
+    background: linear-gradient(84.81deg, rgba(72, 106, 111, 0.2) 0%, rgba(67, 151, 164, 0.2) 100%), #486A6F;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F4F7FF;
+    padding-top: 85px;
+}
+
+footer .footer {
+    align-items: start;
+
+}
+
+footer .footer .footer-section1 {
+    margin-right: 60px;
+}
+
+footer .footer .footer-section1 p {
+    padding-top: 14px;
+}
+
+footer .footer-section1 .company {
+    padding-bottom: 90px;
+}
+
+footer .footer-section1 p span {
+    text-decoration: 2px soild underline white;
+}
+
+/* Style 2nd Section of Footer */
+
+footer .footer-section2 ul {
+    list-style-type: none;
+    margin-right: 279.1px;
+}
+
+footer .footer-section2 ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section2 ul li:last-child {
+    padding-bottom: 32px;
+}
+
+/* Style 3rd Section of Footer */
+footer .footer-section3 {
+    margin-right: 173.07px;
+}
+
+footer .footer-section3 nav ul {
+    list-style-type: none;
+}
+
+footer .footer-section3 nav ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section3 nav ul li a {
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F4F7FF;
+}
+
+footer .footer-section4 ul {
+    list-style-type: none;
+}
+
+footer .footer-section4 ul li {
+    padding-bottom: 6px;
+}
+
+footer .footer-section4 ul li:first-child {
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+footer .footer-section1 ul li .address {
+    text-transform: none;
+    font-style: normal;
+}
+
+                            /* Footer ends here */
+/* ------------------------------------------------------------------------------ */
